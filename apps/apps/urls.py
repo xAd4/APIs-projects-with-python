@@ -18,9 +18,13 @@ from django.contrib import admin
 from django.urls import path, include
 # Cart
 from cart import urls
+# Auth
+from authentication import urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     #* Cart
     path("api/", include("cart.urls")),
+    #* Auth
+    path("api/auth/", include("authentication.urls")),
 ]

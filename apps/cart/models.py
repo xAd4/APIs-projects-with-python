@@ -84,4 +84,5 @@ class Buy(models.Model):
 
         #TODO: Call the parent's save() method to save the instance with the updated total_price
         super().save(*args, **kwargs)
-
+        
+        
