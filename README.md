@@ -1,3 +1,7 @@
+# Authentication API
+
+## Description
+
 Django REST Framework Authentication API
 This API provides user registration, login, and token management functionalities using Django REST Framework and Simple JWT. Follow the steps below to use the authentication features of this API.
 
